@@ -1,8 +1,11 @@
 # Project 3: Website Portfolio
 
-Your task in this unit is to **build a responsive website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript you want to add for interactivity is above and beyond expectations.) In assigning this, I have two main goals for you: (1) to learn how to manage a composite project made up of multiple interlinking files, and (2) to explore the affordances of the web design stack as a medium, and especially its ability to _flexibly render content for multiple audiences or reading priorities_.
+Your task in this unit is to **build a multi-page website using basic html and css files** — as opposed to a site manager like WordPress or Wix — **along with any media assets you wish to embed.** (Any JavaScript or animation you want to add for interactivity is above and beyond expectations.) In assigning this, I have two main goals for you:
 
-As with the earlier projects, the selection of content is your choice. One relatively straightforward option for this unit is to stage and present the materials you produced earlier in the term; depending on your needs and interests, however, you can also develop this into a more sustainable and public-facing platform from which to manage your online identities, or a mock-up of demo content you can use to show off your web-design skills. Whatever you choose, you should consider your audience and how they might land on your website, and where you therefore wish to direct their attention and next steps.
+1. to learn how to manage a composite project made up of multiple interlinking files, and
+2. to explore the affordances of the web design stack as a medium, and especially its ability to _flexibly render content for multiple audiences or reading priorities_.
+
+As with the earlier projects, the selection of content is your choice. One relatively straightforward option for this unit is to stage and present the materials you produced earlier in the term; depending on your needs and interests, however, you can also develop this into a more sustainable and public-facing platform from which to manage your online identities, or a mock-up of demo content you can use to show off your web-design skills. Whatever you choose, you should _consider your audience(s) and how they might land on your website, and where you therefore wish to direct their attention and next steps._
 
 As you start planning your composition, consider: What have you been working on, in or out of this class, that you'd like to show the world? What have you made, or done, or pursued? If someone were to search for you without using your name, what terms would they use in the search? What images would represent or resonate with your answers so far? Or: if the site won't focus on _you_, what group, or thing, or event would you prefer to represent, and in how many ways could you tag or subdivide _that_?
 
@@ -15,20 +18,21 @@ _This is a starting point; we'll discuss and update in class next week, as has b
 For a minimum grade of B, all projects for this unit must:
 
 * Use arrangement, size, color, visual rhythm, and/or contrast to focus viewers' attention.
-* Include at least three html pages.
-* Include at least one css stylesheet.
-* Include at least one image, with alt text
+* Include at least three navigable html locations
 * Have a clear mode of navigation among the pages
-* Argue in reflection why you did what you did
+* Include at least one css stylesheet
+* Include at least one legally useable image, with alt text
 * Successfully display locally in a web browser
+* Argue in reflection why you did what you did
 
 **Aspirational inspirations**
 To target (but not guarantee) a grade above a B, the best projects for this unit may...
 
 * Use Github Pages to load publicly over the Internet
-* Use Jekyll (built into GitHub Pages) to deploy html templates and variables
-* Use best practices for accessible design to avoid errors and build in features as checked by the [WAVE web accessibility evaluation tool](http://wave.webaim.org/)
-* Include a complete alternative stylesheet, a la CSS Zen Garden
+* Use Jekyll (built into GitHub Pages) to deploy html templates and variables, which can help minimize repetition
+* Use best practices for accessible design to build in features (like screen-reader-only navigation) as checked by the [WAVE web accessibility evaluation tool](http://wave.webaim.org/)
+* Use best practices for responsive design (e.g. @media queries to resize elements for mobile vs desktop viewing)
+* Include a loadable alternative stylesheet, a la CSS Zen Garden
 
 
 ## Deadlines and products
