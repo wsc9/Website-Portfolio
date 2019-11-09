@@ -2,12 +2,14 @@
 <html lang='en'>
   <head>
     <meta charset='UTF-8'/>
+    <!--Link for social media icon things-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <title>Theo Caloyer</title>
     <link rel='stylesheet' href='styles.css'/>
   </head>
   <body>
+    <!--Headings and page links-->
     <h1><center><a href='TheoCaloyer.html'Style='text-decoration: none;'>Theo Caloyer</a></center></h1>
     <p><center>
       <a href='collections.html'>Collections</a>
@@ -20,167 +22,64 @@
       &emsp;&emsp;
       <a href='contact.html'>Contact</a>
       </center></p>
-      <hr>
-      <br>
-
+      <hr><br>
     <h2><center>The Latest Works</center></h2>
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
     * {box-sizing: border-box;}
     body {font-family: Verdana, sans-serif;}
     .mySlides {display: none;}
     img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
-}
-/* Social Media */
-.fa {
-padding: 20px;
-font-size: 30px;
-width: 50px;
-text-align: center;
-text-decoration: none;
-margin: 5px 2px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-
-.fa-twitter {
-background: #55ACEE;
-color: white;
-}
-
-.fa-instagram {
-background: #125688;
-color: white;
-}
-
-.fa-snapchat-ghost {
-background: #fffc00;
-color: white;
-text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-</style>
-</head>
-<body>
-<p><center>All pieces are for sale... for the right price:</p>
-<br>
-<div class="slideshow-container"><center>
-
-<div class="mySlides fade"><center>
-  <div class="numbertext"><center>1 / 3</div>
-  <img src="img1.jpg" style="width:50%">
-  <div class="text">Face in Color</div>
-</div>
-
-<div class="mySlides fade"><center>
-  <div class="numbertext"><center>2 / 3</div>
-  <img src="img2.jpg" style="width:50%">
-  <div class="text">Faces Amongst the Trees</div>
-</div>
-
-<div class="mySlides fade"><center>
-  <div class="numbertext"><center>3 / 3</div>
-  <img src="img3.jpg" style="width:50%">
-  <div class="text">Candy Land 1</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span>
-  <span class="dot"></span>
-  <span class="dot"></span>
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
-}
-</script>
-<!-- Add font awesome icons -->
-<center><a href='https://www.instagram.com/theocaloyer/' class="fa fa-instagram"></a>
-<a href="#" class="fa fa-snapchat-ghost"></a></center>
-  </body>
+    </style>
+  </head>
+  <body>
+    <p><center>All pieces are for sale... for the right price:</p>
+      <br>
+      <div class="slideshow-container"><center>
+        <div class="mySlides fade"><center>
+          <div class="numbertext"><center>1 / 3</div>
+            <img src="img1.jpg" style="width:50%">
+            <div class="text">Face in Color</div>
+          </div>
+          <div class="mySlides fade"><center>
+            <div class="numbertext"><center>2 / 3</div>
+              <img src="img2.jpg" style="width:50%">
+              <div class="text">Faces Amongst the Trees</div>
+            </div>
+            <div class="mySlides fade"><center>
+              <div class="numbertext"><center>3 / 3</div>
+                <img src="img3.jpg" style="width:50%">
+                <div class="text">Candy Land 1</div>
+              </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 5000); // Change image every 5 seconds
+            }
+          </script>
+          <!-- Add font awesome icons -->
+          <center><a href='https://www.instagram.com/theocaloyer/' class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-snapchat-ghost"></a></center>
+    </body>
 </html>
